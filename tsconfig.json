@@ -1,0 +1,23 @@
+{
+	"include": ["src/**/*", "scripts/*", "typings/**/*"],
+	"exclude": ["node_modules"],
+	"compilerOptions": {
+		"target": "ESNext",
+		"module": "ESNext",
+		"moduleResolution": "node",
+		"resolveJsonModule": true,
+		"importHelpers": true,
+		"noEmitOnError": true,
+		"allowSyntheticDefaultImports": true,
+		"forceConsistentCasingInFileNames": true,
+		"esModuleInterop": true,
+		"strict": true,
+		"skipLibCheck": true,
+		"jsx": "react"
+	},
+	"ts-node": {
+		"compilerOptions": {
+			"module": "CommonJS"
+		}
+	}
+}

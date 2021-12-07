@@ -1,0 +1,58 @@
+{
+	"name": "react-ts-template",
+	"version": "1.0.0",
+	"sideEffects": false,
+	"description": "react-ts-webpack-template",
+	"main": "index.js",
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1",
+		"start": "cross-env NODE_ENV=development webpack serve --config ./scripts/webpack.dev.ts",
+		"build": "cross-env NODE_ENV=production webpack --config ./scripts/webpack.prod.ts"
+	},
+	"keywords": [
+		"react",
+		"typescript",
+		"webpack",
+		"template"
+	],
+	"author": "dfblhmm",
+	"license": "ISC",
+	"devDependencies": {
+		"@babel/core": "^7.16.0",
+		"@babel/preset-env": "^7.16.4",
+		"@babel/preset-react": "^7.16.0",
+		"@babel/preset-typescript": "^7.16.0",
+		"@pmmmwh/react-refresh-webpack-plugin": "^0.5.3",
+		"@types/compression-webpack-plugin": "^9.0.0",
+		"@types/mini-css-extract-plugin": "^2.4.0",
+		"@types/node": "^16.11.11",
+		"@types/react": "^17.0.37",
+		"@types/react-dom": "^17.0.11",
+		"@types/webpack": "^5.28.0",
+		"@types/webpack-dev-server": "^4.5.0",
+		"babel-loader": "^8.2.3",
+		"clean-webpack-plugin": "^4.0.0",
+		"compression-webpack-plugin": "^9.0.1",
+		"css-loader": "^6.5.1",
+		"html-webpack-plugin": "^5.5.0",
+		"mini-css-extract-plugin": "^2.4.5",
+		"postcss": "^8.4.4",
+		"postcss-loader": "^6.2.1",
+		"postcss-preset-env": "^7.0.1",
+		"react-refresh": "^0.11.0",
+		"sass": "^1.44.0",
+		"sass-loader": "^12.3.0",
+		"style-loader": "^3.3.1",
+		"ts-node": "^10.4.0",
+		"typescript": "^4.5.2",
+		"webpack": "^5.64.4",
+		"webpack-cli": "^4.9.1",
+		"webpack-dev-server": "^4.6.0",
+		"webpack-merge": "^5.8.0"
+	},
+	"dependencies": {
+		"core-js": "^3.19.3",
+		"react": "^17.0.2",
+		"react-dom": "^17.0.2"
+	}
+}
